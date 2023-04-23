@@ -39,7 +39,6 @@ p{
 .conteiner{
     max-width: 1500px;
     margin: 0 auto;
-    border: solid red;
 }
 .cards_conteiner{
     display: flex;
@@ -55,6 +54,7 @@ p{
 .img_size{
     height: 120px;
     float: left;
+    border-radius: 5px;
 }
 .column{
     display: block;
@@ -75,9 +75,5 @@ p{
 .text_blue{
     color: #55b3d8;
 }
-/*Header*/
 
-/*Section1*/
-
-/*Section2*/
 
