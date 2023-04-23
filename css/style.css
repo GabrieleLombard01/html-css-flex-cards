@@ -18,6 +18,12 @@ h1{
     padding-top: 100px;
     padding-bottom: 25px;
 }
+h2{
+    font-family: Fredoka, 'Comic Sans', cursive;
+}
+h3{
+    font-family: Fredoka, 'Comic Sans', cursive;
+}
 p{
     text-align: center;
 }
@@ -27,16 +33,33 @@ p{
     margin: 0 auto;
     border: solid red;
 }
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .clearfix{
     content: "";
     display: table;
     clear: both;
 }
 .img_size{
-    height: 100px;
+    height: 120px;
+    float: left;
+}
+.column{
+    display: block;
 }
 .card{
     background-color: black;
+    width: 350px;
+    display: block
+}
+.text_section{
+    color: white;
+    line-height: 10px;
+    display: inline-block;
+    padding: 15px 10px 15px 15px;
 }
 /*Header*/
 
