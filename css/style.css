@@ -19,6 +19,7 @@ h1{
     text-align: center;
     padding-top: 100px;
     padding-bottom: 25px;
+    font-size: 50px;
 }
 h2{
     font-family: Fredoka, 'Comic Sans', cursive;
@@ -30,6 +31,7 @@ h3{
 }
 p{
     text-align: center;
+    font-size: 20px;
     width: 1000px;
     margin: 0 auto;
 }
@@ -39,7 +41,7 @@ p{
     margin: 0 auto;
     border: solid red;
 }
-.cards{
+.cards_conteiner{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -62,12 +64,16 @@ p{
     width: 350px;
     display: block;
     margin: 20px 10px 20px 10px;
+    border-radius: 5px;
 }
 .text_section{
     color: white;
     line-height: 10px;
     display: inline-block;
     padding: 15px 10px 15px 15px;
+}
+.text_blue{
+    color: #55b3d8;
 }
 /*Header*/
 
