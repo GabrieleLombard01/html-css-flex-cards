@@ -3,7 +3,9 @@
     Blue: #55b3d8
 */
 /*Custom properties*/
-
+.card:hover{
+    background-color: rgb(41, 41, 41);
+}
 /*CSS reset*/
 *{
     margin: 0;
@@ -20,16 +22,20 @@ h1{
 }
 h2{
     font-family: Fredoka, 'Comic Sans', cursive;
+    font-weight: bold;
 }
 h3{
     font-family: Fredoka, 'Comic Sans', cursive;
+    font-weight: normal;
 }
 p{
     text-align: center;
+    width: 1000px;
+    margin: 0 auto;
 }
 /*Utilties*/
 .conteiner{
-    max-width: 100%;
+    max-width: 1500px;
     margin: 0 auto;
     border: solid red;
 }
@@ -37,6 +43,7 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 50px;
 }
 .clearfix{
     content: "";
@@ -53,7 +60,8 @@ p{
 .card{
     background-color: black;
     width: 350px;
-    display: block
+    display: block;
+    margin: 20px 10px 20px 10px;
 }
 .text_section{
     color: white;
