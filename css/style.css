@@ -1,0 +1,28 @@
+/*CSS colors
+    Pink: #e53170
+    Blue: #55b3d8
+*/
+/*Custom properties*/
+
+/*CSS reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Generics*/
+h1{
+    color: #e53170;
+    font-family: Fredoka, 'Comic Sans', cursive;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 25px;
+}
+p{
+    text-align: center;
+}
+/*Utilties*/
+
+/*Header*/
+
+/*Section*/
