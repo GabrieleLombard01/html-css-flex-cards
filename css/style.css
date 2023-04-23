@@ -22,7 +22,25 @@ p{
     text-align: center;
 }
 /*Utilties*/
-
+.conteiner{
+    max-width: 100%;
+    margin: 0 auto;
+    border: solid red;
+}
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+.img_size{
+    height: 100px;
+}
+.card{
+    background-color: black;
+}
 /*Header*/
 
-/*Section*/
+/*Section1*/
+
+/*Section2*/
+
